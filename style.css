@@ -22,6 +22,7 @@ body {
     min-height: 75vh;
     background-color: var(--content-color);
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .row1 {
@@ -30,6 +31,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
+    margin-bottom : 50px;
 }
 
 .img {
@@ -53,7 +55,7 @@ body {
     margin-right: -100px; 
 }
 
-img {
+.image {
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -111,6 +113,7 @@ img {
     flex: 1;
     text-align: start;
     border: 1px solid aqua;
+    color: whtie;
 }
 
 .skills h2 {
@@ -163,8 +166,8 @@ img {
     background-color: #4840dd88;
     width: 300px;
     min-height: 300px;
-    padding: 10px;
-    margin: 20px;
+    padding: 1px;
+    margin: 2px;
 }
 
 .item h2{
@@ -175,10 +178,10 @@ img {
 
 .info {
     background-color: var(--black-color) !important;
-    border-radius: 5%;
+    border-radius: 15px;
     color: white;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 450px;
     padding: 10px;
     margin: 50px 20px;
 }
@@ -207,19 +210,33 @@ img {
 }
 
 .projects {
-    width: 60%;
+    width: 80%;
     color: white;
     padding: 20px;
 }
 
+
 .projects a {
     color: var(--black-color);
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .projects .skill {
-    background-color: aqua;
+    background-color: rgb(103, 245, 245);
     color: var(--black-color);
     display: inline-block;
-    padding: 3px 5px;
+    padding: 2px 3px;
+    margin-left: 3px
+}
+
+.nolink {
+    color: inherit;
+    text-decoration: none;
+}
+
+.title {
+    color: white;
+    font-size: 23px;
+    display: inline;
+    padding: 5px;
 }
